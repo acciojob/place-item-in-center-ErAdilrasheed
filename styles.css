@@ -1,2 +1,18 @@
-
-/* Your CSS Code here. */
+.holder{
+	display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      
+  height: 100vh;            
+  background-color: #f0f0f0;
+}
+.item-1{
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  border-radius: 8px;
+	text-align:center;
+}
